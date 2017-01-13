@@ -1,0 +1,14 @@
+{
+	"Comment": "Update record to reflect new IP address of home router",
+	"Changes": [{
+		"Action": "UPSERT",
+		"ResourceRecordSet": {
+			"Name": "home.nowthatsamatt.com.",
+			"Type": "A",
+			"TTL": 300,
+			"ResourceRecords": [{
+				"Value": "76.77.180.221"
+			}]
+		}
+	}]
+}
